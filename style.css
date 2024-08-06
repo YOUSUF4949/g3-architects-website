@@ -306,3 +306,19 @@ nav ul li a{
     margin-top: 63px;
 }
 /* sponsors service section design ends here */
+/* footer section design starts here */
+footer{
+    margin: 130px 0px;
+}
+.footer-section{
+    text-align: center;
+    background-color: rgb(255, 244, 231);
+}
+
+.footer-section p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    padding: 40px 0;
+}
+/* footer section design ends here */
