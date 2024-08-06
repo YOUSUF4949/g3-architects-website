@@ -229,3 +229,56 @@ nav ul li a{
     font-size: 18px;
 }
 /* features-section design ends here */
+/* some facts design starts here */
+.facts{
+    margin-top: 130px;
+}
+.facts-content{
+    width: 500px;
+    margin-bottom: 100px;
+}
+.facts-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:rgb(19, 19, 19);
+    margin-bottom: 20px; 
+}
+.facts-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(114, 114, 114);
+}
+
+.facts-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.facts-cards .facts-box{
+    border: 1px solid red;
+    width: 230px;
+    height: 230px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 144, 14);
+}
+
+.facts-cards .child-facts img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.facts-cards .child-facts h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:rgb(66, 66, 66);
+}
+.facts-cards .child-facts p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    margin-top: 3px;
+}
+/* some facts design ends here */
