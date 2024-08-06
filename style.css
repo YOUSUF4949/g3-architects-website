@@ -282,3 +282,27 @@ nav ul li a{
     margin-top: 3px;
 }
 /* some facts design ends here */
+/* sponsors service section design starts here */
+.our-sponsors{
+    margin-top: 180px;
+}
+
+.sponsors-content{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsors-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    color:rgb(19, 19, 19);
+    margin-bottom: 20px;
+}
+
+.sponsors-servis{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 63px;
+}
+/* sponsors service section design ends here */
