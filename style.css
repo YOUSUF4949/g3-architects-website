@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* added a work span font family */
+.work-font-family {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: 400;
+  font-weight: 400;
+  font-style: normal;
+}
+/* main-container here */
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* header section design starts here */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand h2{
+    color: rgb(19, 19, 19);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 48px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+/* header section design ends here */
+/* bannar section design starts here */
+.banner-section{
+    margin-top: 116px;
+}
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-content h2{
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.banner-content p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.banner-content .btn{
+    margin-top: 32px;
+    margin-bottom:3.3rem;
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    height: 64px;
+    width: 180px;
+    font-size : 20px;
+    color:  rgb(255, 255, 255);
+    border: none;
+    outline : none;
+}
+.bannar-image img{
+    width: 100%;
+}
+
+/* Responsive header section */
+@media screen and (max-width: 576px){
+    nav, nav ul{
+        flex-direction: column;
+    }
+    .brand h2{
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    nav ul li{
+        padding: 10px 20px;
+        margin-left: 0;
+    }
+    /* banner */
+    .banner-section{
+        margin-top: 20px;
+    }
+    .banner-content h2{
+        color: rgb(19, 19, 19);
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .banner-content p{
+        color: rgb(114, 114, 114);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 16px;
+        text-align: justify;
+        padding: 7px;
+    }
+    
+    .banner-content .btn{
+        margin-top: 20px;
+        margin-bottom:3.3rem;
+        height: 40px;
+        font-weight: bold;
+        width: 120px;
+        font-size : 16px;
+        color:  rgb(255, 255, 255);
+    }
+}
+/* responsive for 768px device */
+@media screen and (max-width: 768px){
+    nav ul li{
+        margin-left: 25px;
+        list-style-type: none;
+    }    
+}
+/* bannar section design ends here */
+
+/* quick list of out features design starts here */
+.quick-list-section{
+    display: flex;
+    margin-top: 130px;
+}
+
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list-image img{
+    border: 1px dashed rgb(114, 114, 114);
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;  
+}
+.quick-list-content{
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center; 
+}
+.quick-content-box{
+    max-width: 537px;
+}
+.quick-content-box h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.quick-content-box .span1{
+    color: rgb(114, 114, 114);
+}
+.quick-content-box .span2{
+    color: rgb(255, 144, 14);
+}
+.quick-content-box p{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.quick-content-box button{
+    margin-top: 32px;
+    margin-bottom:3.3rem;
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    height: 64px;
+    width: 180px;
+    font-size : 20px;
+    color:  rgb(255, 255, 255);
+    border: none;
+    outline : none;
+}
+/* team section Responsive here */
+@media screen and (max-width: 576px){
+.quick-list-section{
+    flex-direction: column;
+}
+    
+.quick-list-image{
+    grid-template-columns: 1fr;
+}  
+ .quick-list-content{
+    margin-left: 0;
+}
+.quick-list-image img{
+    max-width: 100%;
+    border-color: red;
+    height: 342px;
+}
+.quick-content-box{
+    max-width: 100%;
+}
+.quick-content-box button{
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    font-size :20px;
+    color:  rgb(255, 255, 255);
+    border: none;
+    outline : none;
+}
+.quick-content-box h2{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.quick-content-box p{
+    margin-bottom: 15px;
+}
+}
+
+
+@media screen and (max-width: 768px){
+    .quick-list-section{
+        flex-direction: column;
+    }
+     .quick-list-content{
+    margin-left: 10px;
+    }
+}
+/* quick list of out features design ends here */
