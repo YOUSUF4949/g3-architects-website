@@ -88,57 +88,6 @@ nav ul li a{
 .bannar-image img{
     width: 100%;
 }
-
-/* Responsive header section */
-@media screen and (max-width: 576px){
-    nav, nav ul{
-        flex-direction: column;
-    }
-    .brand h2{
-        font-size: 35px;
-        padding-top: 20px;
-    }
-
-    nav ul li{
-        padding: 10px 20px;
-        margin-left: 0;
-    }
-    /* banner */
-    .banner-section{
-        margin-top: 20px;
-    }
-    .banner-content h2{
-        color: rgb(19, 19, 19);
-        font-size: 2rem;
-        font-weight: 700;
-    }
-    .banner-content p{
-        color: rgb(114, 114, 114);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        margin-top: 16px;
-        text-align: justify;
-        padding: 7px;
-    }
-    
-    .banner-content .btn{
-        margin-top: 20px;
-        margin-bottom:3.3rem;
-        height: 40px;
-        font-weight: bold;
-        width: 120px;
-        font-size : 16px;
-        color:  rgb(255, 255, 255);
-    }
-}
-/* responsive for 768px device */
-@media screen and (max-width: 768px){
-    nav ul li{
-        margin-left: 25px;
-        list-style-type: none;
-    }    
-}
 /* bannar section design ends here */
 
 /* quick list of out features design starts here */
@@ -199,54 +148,5 @@ nav ul li a{
     color:  rgb(255, 255, 255);
     border: none;
     outline : none;
-}
-/* team section Responsive here */
-@media screen and (max-width: 576px){
-.quick-list-section{
-    flex-direction: column;
-}
-    
-.quick-list-image{
-    grid-template-columns: 1fr;
-}  
- .quick-list-content{
-    margin-left: 0;
-}
-.quick-list-image img{
-    max-width: 100%;
-    border-color: red;
-    height: 342px;
-}
-.quick-content-box{
-    max-width: 100%;
-}
-.quick-content-box button{
-    margin-top: 15px;
-    height: 50px;
-    width: 150px;
-    font-size :20px;
-    color:  rgb(255, 255, 255);
-    border: none;
-    outline : none;
-}
-.quick-content-box h2{
-    font-size: 34px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-.quick-content-box p{
-    margin-bottom: 15px;
-}
-}
-
-
-@media screen and (max-width: 768px){
-    .quick-list-section{
-        flex-direction: column;
-    }
-     .quick-list-content{
-    margin-left: 10px;
-    }
 }
 /* quick list of out features design ends here */
