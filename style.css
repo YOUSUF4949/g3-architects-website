@@ -152,4 +152,80 @@ nav ul li a{
 }
 /* quick list of out features design ends here */
 /* features-section design starts here */
+.features-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    width: 1200px;
+    margin: 130 auto 0 auto;
+}
+/* feature-content */
+.feature-content{
+    width: 500px;
+}
+
+.feature-content .card1 h3{
+    font-size: 45px;
+    color: rgb(19, 19, 19);
+    margin-bottom: 20px;
+}
+.feature-content .card1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.feature-content .card{
+    background-color: rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.feature-content .card:last-child{
+    margin-bottom: 0px;
+}
+.feature-content .card h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+    margin-bottom: 10px;
+}
+
+.feature-content .card p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(114, 114, 114);
+}
+/* feature-image */
+.feature-image{
+    width: 550px;
+    position: relative;
+}
+.feature-main-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px dashed rgb(114, 114, 114);
+}
+
+.feature-image .experience{
+    background-color:rgb(255, 144, 14);
+    padding: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    position: absolute;
+    left: -80px;
+    bottom: -20px;
+    text-align: center;
+}
+
+.feature-image .experience h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+.feature-image .experience p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
 /* features-section design ends here */
