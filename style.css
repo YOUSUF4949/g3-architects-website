@@ -15,7 +15,7 @@
 }
 /* main-container here */
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 /* header section design starts here */
@@ -23,6 +23,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .brand h2{
@@ -105,8 +106,8 @@ nav ul li a{
 .quick-list-image img{
     border: 1px dashed rgb(114, 114, 114);
     border-radius: 8px;
-    width: 342px;
-    height: 342px;  
+    width: 330px;
+    height: 330px;  
 }
 .quick-list-content{
     margin-left: 76px;
@@ -150,3 +151,5 @@ nav ul li a{
     outline : none;
 }
 /* quick list of out features design ends here */
+/* features-section design starts here */
+/* features-section design ends here */
